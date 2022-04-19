@@ -33,6 +33,23 @@
             <RowDefinition Height="3*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        <Label Grid.Column="1" BorderBrush="Black" Grid.Row="1" HorizontalContentAlignment="Center"  BorderThickness="1" FontSize="40" Content="0" Name="Kostka0" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Label Grid.Column="3" BorderBrush="Black" Grid.Row="1" HorizontalContentAlignment="Center"  BorderThickness="1" FontSize="40" Content="0" Name="Kostka1" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Label Grid.Column="5" BorderBrush="Black" Grid.Row="1" HorizontalContentAlignment="Center"  BorderThickness="1" FontSize="40" Content="0" Name="Kostka2" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Label Grid.Column="7" BorderBrush="Black" Grid.Row="1" HorizontalContentAlignment="Center"  BorderThickness="1" FontSize="40" Content="0" Name="Kostka3" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Label Grid.Column="9" BorderBrush="Black" Grid.Row="1" HorizontalContentAlignment="Center"  BorderThickness="1" FontSize="40" Content="0" Name="Kostka4" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Label Grid.Column="11" BorderBrush="Black" Grid.Row="1" HorizontalContentAlignment="Center"  BorderThickness="1" FontSize="40" Content="0" Name="Kostka5" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+
+        <Button Name="btnGandalf"
+            Content="Hoď kostků"
+                Grid.Column="5"
+                Grid.ColumnSpan="3"
+                HorizontalAlignment="Stretch"
+                Grid.Row="7"
+                VerticalAlignment="Stretch"
+                FontSize="20"
+                Click="btnGandalf_Click" />
+                
 
     </Grid>
 </Window>
